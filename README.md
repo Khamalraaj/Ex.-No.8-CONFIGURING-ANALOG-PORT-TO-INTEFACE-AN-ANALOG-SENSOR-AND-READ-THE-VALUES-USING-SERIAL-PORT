@@ -2,16 +2,15 @@
 
 
 ### Ex. No. :8 CONFIGURING ANALOG PORT TO INTEFACE AN ANALOG SENSOR AND READ THE VALUES USING SERIAL PORT
+
 ## Date: 
-###  
 
 ## Aim: 
 To configure ADC channel for interfacing an analog sensor and read the values on the com port 
 ## Components required:
 STM 32 CUBE IDE , STM32 NUCLEO BOARD, CONNECTING CABLE, SERIAL PORT UTILITY , ANALOG SENSOR - 3.3V TYPE 
- ## Theory 
+ ## Theory:
 
- 
 ADCs are characterized by:
 
 Resolution [bit]: the number of bits to represent a digital signal.
@@ -149,7 +148,8 @@ GND pin is a Ground
 This module also includes a potentiometer that will fix the threshold value, & the value can be evaluated by the comparator-LM393. The LED will turn on/off based on the threshold value.
 
 
-##  Program 
+##  Program :
+
 ```
 #include "main.h"
 #include "stdio.h"
@@ -389,14 +389,14 @@ void assert_failed(uint8_t *file, uint32_t line)
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
 ```
  
-## Output  :
+## Output:
 
 ![c9145bfe-9fdf-4687-ba7f-1e82a6c89c43](https://github.com/user-attachments/assets/1285a8d9-9cbf-477c-bf98-a41d85da4b50)
 
 <img width="1919" height="1143" alt="Screenshot 2025-11-11 090456" src="https://github.com/user-attachments/assets/3885b16b-cc35-4e67-a8b4-74ec907cd928" />
 
 
-## Result :
+## Result:
 
 The analog sensor was successfully interfaced with the STM32 Nucleo board using the ADC channel, and the sensor values were read and displayed through the serial port.
 
